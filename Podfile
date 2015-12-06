@@ -4,9 +4,19 @@
 # use_frameworks!
 
 target 'SGiOSSummary' do
- 
-pod 'MBProgressHUD', '~> 0.9.1'
 
+# Basic always to use.
+#pod 'AFNetworking', '~> 2.6.0'
+#pod 'MBProgressHUD', '~> 0.9.1'
+#pod 'SDWebImage', '~> 3.7.2'
+#pod 'MJRefresh', '~> 2.2.0'
+
+# Frame work
+#pod 'ReactiveCocoa','~>2.5'
+
+# Third part
+#pod 'ShareSDK3'
+#pod 'EaseMobSDK', '~> 2.1.9'
 end
 
 target 'SGiOSSummaryTests' do
